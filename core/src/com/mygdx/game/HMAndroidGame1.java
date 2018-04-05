@@ -4,7 +4,7 @@ package com.mygdx.game;
  * HomeWork 1
  * @author Ievlev Andrey
  * @version April 6, 2018
- * @Link 
+ * @Link https://github.com/OLskrain/HM1_AndroidGame.git
  */
 
 import com.badlogic.gdx.ApplicationAdapter;
