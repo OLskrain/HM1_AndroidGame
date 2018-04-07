@@ -23,10 +23,12 @@ public class Asteroid {
         position.mulAdd(velocity, dt);
         velocity.y -= 200 * dt;
         if(position.x > 1312){
-            position = new Vector2(- 32, position.y);
+            position.x = -32;
+           // position = new Vector2(- 32, position.y); не стоит этого использовать, так как мы создаем новый объект, что не хорошо в андройде
         }
         if(position.x < - 32){
-            position = new Vector2(1312, position.y);
+            position.x = 1312;
+          //  position = new Vector2(1312, position.y);
         }
         if(position.y - 32 < 0){
             position.y = 32;
